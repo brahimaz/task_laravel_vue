@@ -25,7 +25,7 @@ Vue.use(Router)
 
 const routes = [
     { path: '/', name: 'home', component: require('./components/DashboardComponent.vue').default },
-    { path: '/products', name: 'products', component: require('./components/Product.vue').default },
+    { path: '/products', name: 'products', component: require('./components/ProductComponent.vue').default },
 ]
     
 const router = new Router({
